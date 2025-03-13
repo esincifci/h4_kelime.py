@@ -1,5 +1,6 @@
-g='Türkiye nin en büyük teknolOji etkinliği TEKNOFEST,bu yıl İstanbul da düzenleniyor.'
-kelimeler=g.split('')
+g='Türkiye nin en büyük teknoloji etkinliği TEKNOFEST, bu yıl İstanbul da düzenleniyor.'
+kelimeler=g.split(' ')
+
 def donustur(a):
     sayac=[]
     for kelime in a:
@@ -8,7 +9,7 @@ def donustur(a):
         for harf in range(len(kelime)):
             sayici+=1
             print(sayici)
-            sayac.append(sayici)
-            return sayac
-        b=donustur(kelimeler)
+        sayac.append(sayici)
+    return sayac
 
+b=donustur(kelimeler)
