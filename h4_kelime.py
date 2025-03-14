@@ -12,4 +12,4 @@ def donustur(a):
         sayac.append(sayici)
     return sayac
 
-b=donustur(kelimeler)
+b=donustur(kelimeler) 
