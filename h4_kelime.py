@@ -1,4 +1,4 @@
-g='Türkiye nin en büyük teknoloji etkinliği TEKNOFEST, bu yıl İstanbul da düzenleniyor.'
+g='Türkiye nin en büyük teknoloji etkinliği TEKNOFEST, bu yil İstanbul da düzenleniyor.'
 kelimeler=g.split('')
 
 def donustur(a):
@@ -13,4 +13,3 @@ def donustur(a):
     return sayac
 
 b=donustur(kelimeler)
-
